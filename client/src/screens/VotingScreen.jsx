@@ -23,7 +23,7 @@ export default function VotingScreen() {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center px-6 text-center"
         style={{ background: 'var(--bg)' }}>
-        <div className="text-5xl mb-4 animate-slide-up">🗳️</div>
+        
         <p className="font-display text-2xl font-700 mb-2 animate-slide-up"
           style={{ color: 'var(--green)' }}>Vote in!</p>
         <p className="text-sm mb-8 animate-slide-up" style={{ color: 'var(--cream-dim)' }}>

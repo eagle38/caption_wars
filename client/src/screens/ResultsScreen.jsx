@@ -15,7 +15,7 @@ export default function ResultsScreen() {
           Photo {state.imageIndex + 1} results
         </p>
         <h2 className="font-display text-3xl font-800 mt-1" style={{ color: 'var(--cream)' }}>
-          Results 🏆
+          Results 
         </h2>
       </div>
 

@@ -25,7 +25,7 @@ export default function RankingsScreen() {
           After photo {(state.currentImageIndex ?? state.imageIndex ?? 0) + 1}
         </p>
         <h2 className="font-display text-4xl font-800" style={{ color: 'var(--cream)' }}>
-          {state.isLastImage ? '🎉 Last photo!' : '📊 Rankings'}
+          {state.isLastImage ? '🎉 Game is literally over' : ' Rankings'}
         </h2>
       </div>
 

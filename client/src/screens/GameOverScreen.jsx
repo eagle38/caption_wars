@@ -21,7 +21,7 @@ export default function GameOverScreen() {
         Game Over!
       </h1>
       <p className="text-sm mb-10 animate-slide-up" style={{ color: 'var(--cream-dim)' }}>
-        Thanks for playing Caption Wars
+        You werent lame at all , until next time.
       </p>
 
       {/* Winner card */}

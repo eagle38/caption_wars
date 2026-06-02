@@ -36,7 +36,7 @@ export default function CaptioningScreen() {
               {state.submittedCount}
             </span>/{state.totalPlayers}
           </div>
-          <Timer maxSeconds={state.config?.captionTimerSeconds || 60} />
+          <Timer maxSeconds={state.config?.captionTimerSeconds || 40} />
         </div>
       </div>
 
@@ -55,7 +55,7 @@ export default function CaptioningScreen() {
       <div className="flex-1 flex flex-col px-5 pb-8">
         {submitted ? (
           <div className="flex-1 flex flex-col items-center justify-center text-center animate-slide-up">
-            <div className="text-4xl mb-4">✍️</div>
+            
             <p className="font-display text-xl font-700 mb-2" style={{ color: 'var(--green)' }}>
               Caption submitted!
             </p>
@@ -92,7 +92,7 @@ export default function CaptioningScreen() {
               {caption.length}/120
             </p>
             <PrimaryButton onClick={handleSubmit} disabled={!caption.trim()}>
-              Submit Caption 🚀
+              Submit Caption 
             </PrimaryButton>
           </>
         )}
