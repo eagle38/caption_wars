@@ -10,7 +10,7 @@ const multer = require('multer');
 // ─────────────────────────────────────────
 const CONFIG = {
   maxImages: 25,
-  captionTimerSeconds: 60,
+  captionTimerSeconds: 40,
   votingTimerSeconds: 30,
   rankingsDisplaySeconds: 4,
   pointsPerVote: 100,

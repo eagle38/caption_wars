@@ -43,14 +43,14 @@ export default function HomeScreen() {
 
       {/* Header */}
       <div className="animate-slide-up mb-12">
-        <div className="text-5xl mb-4">📸</div>
+        
         <h1 className="font-display text-4xl font-800 leading-none mb-2"
           style={{ color: 'var(--cream)' }}>
           Caption<br />
           <span style={{ color: 'var(--accent)' }}>Wars</span>
         </h1>
         <p className="text-sm" style={{ color: 'var(--cream-dim)' }}>
-          The party photo caption game
+          The party photo caption game , you may need friends to play this.
         </p>
       </div>
 
