@@ -74,7 +74,7 @@ export default function GameOverScreen() {
           boxShadow: '0 4px 24px rgba(255,77,28,0.35)',
         }}
       >
-        I want to play again 🎮
+        I want to play again 
       </button>
 
     </div>
