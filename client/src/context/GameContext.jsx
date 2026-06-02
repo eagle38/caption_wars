@@ -72,6 +72,8 @@ function reducer(state, action) {
         submittedCount: action.payload.submittedCount,
         totalPlayers: action.payload.totalPlayers,
       };
+      case 'RESET':
+         return { ...initialState };
     default:
       return state;
   }

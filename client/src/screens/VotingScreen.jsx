@@ -104,7 +104,7 @@ export default function VotingScreen() {
       {/* Submit */}
       <div className="px-5 pb-8 pt-3">
         <PrimaryButton onClick={handleVote} disabled={!selectedId}>
-          Submit Vote 🗳️
+          Submit Vote 
         </PrimaryButton>
       </div>
 

@@ -1,7 +1,7 @@
 import { useGame } from '../context/GameContext';
 
 export default function GameOverScreen() {
-  const { state } = useGame();
+  const { state, dispatch } = useGame();
 
   const players = Array.isArray(state.players)
     ? state.players
@@ -18,7 +18,7 @@ export default function GameOverScreen() {
       <div className="text-7xl mb-4 animate-slide-up">🏆</div>
       <h1 className="font-display text-5xl font-800 mb-1 animate-slide-up"
         style={{ color: 'var(--cream)' }}>
-        Game Over!
+        I think the game is over now
       </h1>
       <p className="text-sm mb-10 animate-slide-up" style={{ color: 'var(--cream-dim)' }}>
         You werent lame at all , until next time.
@@ -64,6 +64,23 @@ export default function GameOverScreen() {
         ))}
       </div>
 
+
+       <button
+        onClick={handlePlayAgain}
+        className="w-full max-w-sm py-4 rounded-2xl font-display font-700 text-lg tracking-wide transition-all active:scale-95"
+        style={{
+          background: 'var(--accent)',
+          color: 'var(--cream)',
+          boxShadow: '0 4px 24px rgba(255,77,28,0.35)',
+        }}
+      >
+        I want to play again
+      </button>
+
+
     </div>
   );
+}
+function handlePlayAgain() {
+  dispatch({ type: 'RESET' });
 }
