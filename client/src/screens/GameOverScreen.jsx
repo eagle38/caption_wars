@@ -21,7 +21,7 @@ export default function GameOverScreen() {
       <div className="text-7xl mb-4 animate-slide-up">🏆</div>
       <h1 className="font-display text-5xl font-800 mb-1 animate-slide-up"
         style={{ color: 'var(--cream)' }}>
-        I think the game is over now
+        Game over
       </h1>
       <p className="text-sm mb-10 animate-slide-up" style={{ color: 'var(--cream-dim)' }}>
         You werent lame at all, until next time.
